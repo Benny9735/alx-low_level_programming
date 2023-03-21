@@ -1,22 +1,18 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - func
+ * print_alphabet - prints alphabet
  *
- * Return - 0
+ * Return: always 0;
+ *
  */
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
-int b = 0;
-while (b < 10)
-{
-char a = 'a';
-while (a <= 'z')
-{
-_putchar(a);
-a++;
-}
-_putchar('\n');
-b++;
-}
+	char i;
+
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		_putchar(i);
+	}
+	_putchar('\n');
 }

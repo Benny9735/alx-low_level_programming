@@ -1,4 +1,4 @@
-#include "alx"
+#include "main.h"
 /**
  * _isalpha - main function
  *

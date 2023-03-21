@@ -1,4 +1,4 @@
-#include "alx"
+#include "main.h"
 /**
  * add - adding it up
  * @a: first integer
