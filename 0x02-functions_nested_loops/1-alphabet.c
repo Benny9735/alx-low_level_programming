@@ -1,18 +1,22 @@
-#include "alx"
+#include "main.h"
 
 /**
- * print_alphabet - prints alphabet
+ * print_alphabet_x10 - func
  *
- * Return: always 0;
- *
+ * Return - 0
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
-	char i;
-
-	for (i = 'a'; i <= 'z'; i++)
-	{
-		_putchar(i);
-	}
-	_putchar('\n');
+int b = 0;
+while (b < 10)
+{
+char a = 'a';
+while (a <= 'z')
+{
+_putchar(a);
+a++;
+}
+_putchar('\n');
+b++;
+}
 }
